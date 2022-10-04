@@ -1,0 +1,838 @@
+/* NAVIGATION BAR */
+body{
+  margin: 0;
+}
+.nav-link{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #1C1E21;
+text-decoration: none;
+margin: 0 10px;
+}
+
+.nav-list{
+  list-style: none;
+}
+
+.log-in{
+  color: #67788A;
+
+
+}
+
+/* FLEXBOX FOR NAVIGATION BAR */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 60px 40px 60px;
+}
+
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* MEDIA QUERY FOR NAVBAR */
+@media (max-width:1100px) {
+  .navbar{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:1100px) {
+  .nav-list{
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+  .list{
+    margin: 20px 0;
+  }
+
+  .vertical{
+    display: none;
+  }
+}
+
+
+
+/* FIRST CONTAINER */
+
+.future{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 74px;
+
+color: #444444;
+
+
+}
+
+.what{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 28px;
+
+color: #444444;
+
+
+}
+
+.see{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #444444;
+margin: 0 10px;
+}
+
+label{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+ color: #232323;
+ margin: 0 7px;
+}
+
+input{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #65798A;
+border: none;
+margin: 0 7px;
+padding-right: 15px;
+
+
+}
+
+.office{
+  margin-right: 100px;
+  width: 300px;
+}
+
+.f-image{
+  width: 90%;
+  margin-top: 40px;
+}
+
+.R1{
+  width: 35%;
+}
+
+#first-container{
+  background-image: url("../meta-bg.png");
+  padding: 10px 80px 100px 80px;
+}
+
+.search{
+  background: #E9EBEE;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+
+
+/* FLEXBOX FOR FIRST CONTAINER */
+.first-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 40px;
+}
+
+.job-div{
+  display: flex;
+
+}
+
+.flex-form{
+  display: flex;
+  justify-content: center;
+ padding: 10px;
+ border-radius: 30px;
+ background: white;
+}
+
+.C{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.cover{
+  display: flex;
+  justify-content: center;
+}
+
+/* MEDIA QUERY FOR FIRST CONTAINER */
+@media (max-width:1200px) {
+  .first-container{
+    flex-direction: column;
+  }
+
+  .R1{
+    margin: 20px auto;
+    width: 100%;
+
+  }
+
+  .f-image{
+    width:90%;
+  }
+
+
+}
+@media (max-width:900px) {
+  .flex-form{
+    flex-direction: column;
+  }
+
+  .line{
+    display: none;
+  }
+
+  .search{
+    width: 3%;
+    margin: 10px auto;
+  }
+
+
+}
+
+@media (max-width:700px) {
+  .f-image{
+    width: 100%;
+  }
+}
+/* SECOND CONTAINER */
+.build{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+
+letter-spacing: 0.24em;
+
+color: #677B8C;
+
+}
+
+.innovators{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: 0.05em;
+
+color: #232323;
+}
+
+.s-image2{
+  width: 400px;
+  height: 400px
+}
+
+.s-image1{
+  height: 400px;
+  width: 10px;
+}
+
+.s-image3{
+  height: 400px;
+  width: 170px;
+}
+
+.s-image4{
+  height: 350px;
+  width: 170px;
+}
+
+.s-image5{
+  height: 400px;
+  width: 170px;
+}
+
+.s-image6{
+  height: 350px;
+  width: 170px;
+}
+
+.s-image7{
+  height: 400px;
+  width: 170px;
+}
+
+
+
+
+
+
+#second-container{
+  background: #F5F6F6;
+  padding: 80px;
+}
+
+
+/* FLEXBOX FOR SECOND CONTAINER */
+.second-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 30px 60px;
+  margin: 0;
+}
+
+.s-images{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+@media (max-width:1200px) {
+  .s-images{
+    flex-wrap: wrap;
+  }
+
+  .second-container{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:700px) {
+  .s-images{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s-image{
+    margin: 0;
+  }
+
+  .s-image7,.s-image6,.s-image5,.s-image4,.s-image3,.s-image1{
+    transform: rotate(90deg);
+    width: 400px;
+  }
+
+  .s-image1{
+    width: 40px;
+  }
+}
+
+
+/* THIRD CONTAINER */
+#third-container{
+  padding: 100px;
+}
+.what{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.2em;
+
+color: #232323;
+
+opacity: 0.6;
+/* border-bottom: 1px solid #CDD2D5; */
+}
+
+.from{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0.05em;
+width: 40%;
+color: #232323;
+
+opacity: 0.6;
+/* border-bottom: 1px solid #CDD2D5; */
+
+}
+
+.social-image2{
+  /* border-bottom: 1px solid #CDD2D5; */
+  margin: 10px 0;
+  width: 30%;
+  padding: 10px;
+
+}
+
+.social-image1{
+  /* border-bottom: 1px solid #CDD2D5; */
+  padding: 10px;
+  margin: 10px 0;
+  width: 70%;
+
+}
+
+.social-pic{
+  margin: 20px 0;
+}
+
+/* FLEXBOX FOR THIRD CONTAINER */
+.third-container{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.t1{
+  display: flex;
+  flex-direction: column;
+}
+
+.t2{
+  display: flex;
+  flex-direction: column;
+  margin-right: 300px;
+}
+.L3{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px;
+
+
+
+}
+
+.R3{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 10px 0 200px;
+  padding: 20px;
+
+}
+
+.social-image{
+  width: 26%;
+}
+
+.messenger{
+  margin-top: 50px;
+}
+
+.topic{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+/* MEDIA QUERY FOR THIRD CONTAINER */
+@media (max-width:1000px) {
+.t2{
+  align-items: flex-end;
+}
+
+.third-container{
+  justify-content: space-between;
+}
+}
+
+@media (max-width:1200px) {
+  .third-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .topic{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .what,.from{
+    width: 100%;
+  }
+
+}
+
+/* FOURTH CONTAINER */
+
+.date{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1em;
+
+color: #3578EA;
+
+}
+
+.our{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+
+color: #3578EA;
+
+}
+
+.connecting{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+
+
+color: #3578EA;
+}
+
+.read{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+
+.f4-image{
+  width: 60%;
+}
+
+#fourth-container{
+  background: #1C2B33;
+  padding: 0 40px 40px 40px;
+}
+.L4{
+  width: 50%;
+}
+
+.read-tag{
+  text-decoration: none;
+}
+
+/* FLEXBOX FOR FOURTH CONTAINER */
+.fourth-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* FIFTH CONTAINER */
+#fifth-container{
+  padding: 100px;
+}
+.feature{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0.1em;
+
+color: #1C2B33;
+
+}
+
+.view{
+
+font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+
+
+color: #344854;
+}
+
+/* MEDIA QUERY FOR FOURTH CONTAINER */
+@media (max-width:1000px) {
+  .fourth-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* FLEXBOX FOR FIFTH CONTAINER */
+.featured-news{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+
+}
+
+
+.news-image{
+  width: 90%;
+}
+
+.news{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.newsroom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+
+}
+
+.arrow-left-circle{
+  width: 20%;
+
+}
+
+/* MEDIA QUERY FOR FIFTH CONTAINER */
+@media (max-width:900px) {
+  .featured-news{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .news-image{
+    width: 50%;
+    margin: 30px 0;
+  }
+}
+
+/* SIXTH CONTAINER */
+.work{
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.24em;
+  color: #677B8C;
+
+
+}
+
+.browse{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+margin-left:120px;
+color: #677B8C;
+
+}
+
+.it-jobs{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height */
+
+
+color: #000000;
+margin: 40px;
+
+}
+
+.see-all-job{
+  padding: 100px 0;
+}
+
+#sixth-container{
+  background: #F5F6F6;
+  padding: 100px;
+
+}
+/* FLEXBOX FOR SIXTH CONTAINER */
+.job-list{
+  display: flex;
+  width: 90%;
+
+  flex-wrap: wrap;
+  list-style: disc;
+  margin: 20px auto;
+}
+
+
+.list::marker
+{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.flex-form2{
+  display: flex;
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+  justify-content: space-between;
+  background: white;
+
+}
+
+
+.cover2{
+}
+
+
+/* FLEXBOX FOR SIXTH CONTAINER */
+.first{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* MEDIA QUERY FOR THE SIXTH CONTAINER */
+@media (max-width:600px) {
+  .job-list{
+    flex-direction: column;
+  }
+
+
+}
+
+@media (max-width:1000px) {
+  .first{
+    flex-direction: column;
+  }
+}
+
+@media (max-width:1300px) {
+  .line2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* SEVENTH CONTAINER */
+.text{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+
+color: #232323;
+
+}
+
+
+.text-link{
+  color: #232323;
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 26px;
+}
+
+#seventh-container{
+  background: #F5F6F6;
+  padding: 100px;
+}
+
+/* FLEXBOX FOR SEVENTH CONTAINER */
+#seventh-container{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+
+/* FOOTER */
+.footer{
+  background: #F5F6F6;
+  padding: 100px;
+}
+.footer-head{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 0;
+/* identical to box height, or 100% */
+
+
+color: #232323;
+
+}
+
+
+.footer-link{
+  font-family: 'Facebook Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+text-decoration: none;
+
+
+color: #232323;
+
+}
+
+.footer-list{
+  list-style: none;
+}
+/* FLEXBOX FOR FOOTER */
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-left{
+  display: flex;
+  justify-content: space-between;
+}
+
+.A{
+  margin: 0 40px;
+}
+
+/* MEDIA QUERY FOR FOOTER */
+@media (max-width:1000px) {
+  .footer-left{
+    flex-direction: column;
+  }
+
+  .A{
+    margin: 20px 0;
+  }
+}
